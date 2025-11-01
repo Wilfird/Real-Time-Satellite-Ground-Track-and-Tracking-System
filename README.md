@@ -6,10 +6,16 @@ This project visualizes the real-time orbital position and ground track of satel
 1. Features
 
 Real-time satellite tracking using latest TLE data
+
 Ground track plotted live using Matplotlib & Cartopy
+
 GUI interface to start/stop tracking easily
+
 Displays live latitude, longitude, and position markers
+
 Modular code — can be extended to multiple satellites
+
+
 
 | Component   | Purpose                        |
 | ----------- | ------------------------------ |
@@ -22,6 +28,7 @@ Modular code — can be extended to multiple satellites
 
 
 Install required libraries: pip install skyfield sgp4 cartopy matplotlib numpy
+
 
 2. How to Use
 
@@ -37,13 +44,19 @@ Watch the real-time ground track update
 3. Future Improvements
 
 Multi-satellite tracking
+
 Ground station coverage & pass prediction
+
 Zoomable and interactive map
+
 Flask/Django-based web dashboard
 
 4. Applications
 
 Space operations learning & demonstration
+
 Amateur satellite tracking
+
 Ground station support systems
+
 Aerospace and defense academic projects
